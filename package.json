@@ -1,0 +1,21 @@
+{
+  "name": "model-price",
+  "version": "1.0.0",
+  "description": "根据车型描述获取汽车之家的价格区间",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.guluabc.com:node/model-price.git"
+  },
+  "author": "Kane",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "node-xlsx": "^0.6.0",
+    "request": "^2.65.0",
+    "xlsx-stream": "^0.1.2"
+  }
+}

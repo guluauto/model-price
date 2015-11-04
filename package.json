@@ -13,6 +13,8 @@
   "author": "Kane",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^0.19.0",
+    "iconv-lite": "^0.4.13",
     "lodash": "^3.10.1",
     "node-xlsx": "^0.6.0",
     "request": "^2.65.0",

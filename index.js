@@ -138,7 +138,6 @@ Pooler.done = function() {
 
   console.log('+++++++++++++++++++++++++++++');
   console.log(part_data.length);
-  console.log(JSON.stringify(part_data));
   console.log('+++++++++++++++++++++++++++++');
 
   if (part_data.length) {
@@ -150,6 +149,7 @@ Pooler.done = function() {
     run(part_data, true);
     Pooler.run();
 
+    return;
   }
 
   clearInterval(timer);
